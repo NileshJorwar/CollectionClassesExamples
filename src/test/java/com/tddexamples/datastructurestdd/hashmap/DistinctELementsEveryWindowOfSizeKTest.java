@@ -28,5 +28,13 @@ class DistinctELementsEveryWindowOfSizeKTest {
         distinctELementsEveryWindowOfSizeK.getDistinctUsingBruteForce(arr1, 2);
     }
 
+    @Test
+    public void test_subSetOfArray1() {
+//        int arr1[] = {1, 2, 1, 3, 4, 2, 3};
+//        distinctELementsEveryWindowOfSizeK.getDistinctElemts(arr1, 4);
+
+        int arr1[] = {1, 2, 4, 4};
+        distinctELementsEveryWindowOfSizeK.getDistinctElemts(arr1, 2);
+    }
 
 }
