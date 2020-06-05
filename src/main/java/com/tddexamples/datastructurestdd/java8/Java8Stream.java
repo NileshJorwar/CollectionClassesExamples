@@ -142,6 +142,8 @@ public class Java8Stream {
                 .limit(10)
                 .forEach(System.out::println);
 
+        /*
+        * For Sorting in STreams Look for Employee.java*/
 
     }
 }
