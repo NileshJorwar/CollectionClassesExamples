@@ -6,6 +6,8 @@ import java.util.Map;
 public class IsLetterConstructFromMagazineOrRansomeNote {
 
     public boolean isLetterConstructibleFromMagazine(String letterText, String magazineText) {
+        if (letterText.length() > magazineText.length())
+            return false;
         Map<Character, Integer> characterIntegerMap = new HashMap<>();
         for (int i = 0; i < letterText.length(); i++) {
             if (!characterIntegerMap.containsKey(letterText.charAt(i)))
